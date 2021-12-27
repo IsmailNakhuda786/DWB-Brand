@@ -1,0 +1,22 @@
+@import "../../styles/variable";
+.textArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+  textarea {
+    background: transparent;
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0000002e;
+    color: #0000006e;
+    resize: none;
+    &:focus {
+      border-color: $clr-theme;
+    }
+  }
+}

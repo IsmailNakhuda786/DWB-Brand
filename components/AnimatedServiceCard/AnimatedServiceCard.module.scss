@@ -1,0 +1,53 @@
+.animated_card_wrapper {
+  min-height: 200px;
+  min-width: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s;
+
+  .animate_step_up {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0);
+    transition: 0.3s;
+    background-color: transparent;
+
+    img {
+      width: 60px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .box_content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  &:hover {
+    background-color: orange;
+    .box_content {
+      opacity: 1;
+    }
+    .animate_step_up {
+      transform: translateY(-50%);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.contactMapMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  .contactFormArea {
+    padding: 2em;
+  }
+  .mapDisplayArea {
+    padding: 0em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contactMapMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

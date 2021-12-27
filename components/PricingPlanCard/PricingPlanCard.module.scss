@@ -1,0 +1,78 @@
+@import "../../styles/variable";
+.pricingCard {
+  border-radius: 15px;
+  background: $clr-white;
+  width: 100%;
+  box-shadow: 3px 4px 20px 6px #d4d4d4;
+  max-width: 330px;
+  .borders {
+    border-top: dashed #f1f1f1;
+    border-bottom: dashed #f1f1f1;
+    padding: 0 0 0 10px;
+
+    .list {
+      height: 158px;
+      overflow-y: auto;
+      padding: 10px 0;
+      margin: 10px 0;
+    }
+  }
+  .wrapperTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $clr-theme;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+  }
+  .wrapperAmount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+    position: relative;
+    .amount {
+      position: absolute;
+      right: 83px;
+      top: 15px;
+      text-decoration: line-through #0476d9;
+    }
+  }
+  .description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 0px;
+    // p {
+    //   margin-bottom: 15px;
+    // }
+    button {
+      background: $clr-theme;
+      border-radius: 30px;
+      margin-bottom: 15px;
+      color: $clr-white;
+    }
+    .detail {
+      text-decoration: underline;
+    }
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px 15px;
+    .contactAlign {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}

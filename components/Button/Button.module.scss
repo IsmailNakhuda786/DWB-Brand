@@ -1,0 +1,16 @@
+.buttonContainer {
+  outline: none;
+  background: #05aff2;
+  padding: 8px 24px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  border-radius: 30px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.buttonContainer:active {
+  transform: scale(0.9);
+}

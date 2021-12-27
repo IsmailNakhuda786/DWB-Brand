@@ -1,0 +1,32 @@
+.imageClass {
+  width: 440px !important;
+}
+.testimonial_wrapper {
+  position: relative;
+
+  .quotesRight {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 60px;
+    z-index: 10;
+  }
+  .quotesLeft {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 60px;
+    z-index: 101;
+  }
+}
+
+// Media Query fro mobile 540px
+
+@media screen and (max-width: 540px) {
+  .imageClass {
+    width: 100% !important;
+  }
+  .paragraph {
+    width: 75%;
+  }
+}

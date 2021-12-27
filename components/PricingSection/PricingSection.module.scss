@@ -1,0 +1,54 @@
+.pricing_section {
+  .content_box {
+    text-align: center;
+
+    p {
+      max-width: 500px;
+      margin: auto;
+    }
+  }
+
+  .button_group {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin-top: -10px;
+    button {
+      margin: 0 10px;
+      margin-top: 10px;
+    }
+  }
+  .pricing_plan_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 991px) {
+.pricing_section {
+  .pricing_plan_wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) !important;
+    grid-row-gap: 45px !important;
+  }
+  .button_group {
+    button {
+      margin: 10px 4px;
+    }
+  }
+}
+}
+
+// Media Query form Mobile width 540px
+
+@media screen and (max-width: 540px) {
+  .pricing_plan_wrapper {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 45px !important;
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../styles/variable";
+.main {
+  text-align: center;
+  background: $clr-theme;
+  // padding: 20px 10em;
+  .projectCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 15px;
+    grid-template-rows: auto;
+  }
+  .wrapperButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+  }
+}
+
+// Media Query for IPAD width 991px
+
+@media screen and (max-width: 991px) {
+  .main {
+    padding: 0px;
+    .projectCard {
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      grid-gap: 10px;
+    }
+    .wrapperButton {
+      flex-wrap: wrap;
+      button {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+// Media Query from Mobile width 540px
+
+@media screen and(max-width:540px) {
+  .main {
+    padding: 0px;
+    .projectCard {
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      grid-gap: 10px;
+    }
+    .wrapperButton {
+      padding: 20px 0px 0 0;
+      flex-wrap: wrap;
+      button {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
