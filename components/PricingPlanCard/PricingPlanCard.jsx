@@ -21,16 +21,22 @@ const PricingPlanCard = ({
     <>
       <div className={`${classList.pricingCard} ${backgroundColor}`}>
         <div className={classList.wrapperTitle}>
-          <Header color="white" style={{ margin: "0px" }}>
+          <Header color="white" style={{ margin: "0px" }} fontSize="14px">
             {title}
           </Header>
           {/* <h1 className={classList.title}></h1> */}
         </div>
         <div className={classList.wrapperAmount}>
-          <Paragraph color="#00000042" className={classList.amount}>
-            {amount}
+          <Paragraph
+            color="#0000008a"
+            className={classList.amount}
+            style={{ fontFamily: "sans-serif" }}>
+            ${amount}
           </Paragraph>
-          <Header fontWeight="bold" style={{ marginBottom: "6px" }}>
+          <Header
+            fontWeight="semi-bold"
+            style={{ marginBottom: "6px" }}
+            style={{ fontFamily: "sans-serif" }}>
             {netAmount}
           </Header>
           <Paragraph style={{ margin: "0px" }}>{status}</Paragraph>
@@ -39,14 +45,14 @@ const PricingPlanCard = ({
           <div className={classList.list}>{children}</div>
         </div>
         <div className={classList.description}>
-          <Paragraph style={{ marginBottom: "15px" }}>
+          <Paragraph style={{ marginBottom: "15px" }} fontSize="14">
             Add on: $100 for 25 Minutes Rush Delivery
           </Paragraph>
           <Button
             onClick={() => setModal(true)}
             backgroundColor={"#05aff2"}
             color="white">
-            Order now
+            Order Now
           </Button>
           <Paragraph
             color="#0476d9"

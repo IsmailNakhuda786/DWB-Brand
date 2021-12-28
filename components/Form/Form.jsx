@@ -85,7 +85,7 @@ const Form = ({ heading, description, buttonText, className }) => {
     <>
       <form className={`${classList.formWidth} ${className}`}>
         <Header>{heading}</Header>
-        {description && <Paragraph>{description}</Paragraph>}
+        {description && <Paragraph marginBottom="30">{description}</Paragraph>}
         <InputField
           value={name}
           onChange={(e) => inputChangeHandler(e)}
@@ -121,7 +121,7 @@ const Form = ({ heading, description, buttonText, className }) => {
           onClick={submitFormHanlder}
           htmlType="submit"
           color="white"
-          style={{ marginBottom: "0px", marginTop: "10px" }}>
+          style={{ marginBottom: "0px", marginTop: "20px" }}>
           {buttonText}
         </Button>
       </form>

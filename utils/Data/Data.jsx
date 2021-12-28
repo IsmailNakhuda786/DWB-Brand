@@ -2,9 +2,9 @@ import projectCard from "../../assets/images/sample/projectCard.svg";
 import projectCard1 from "../../assets/images/sample/projectCard1.svg";
 import projectCard2 from "../../assets/images/sample/projectCard2.svg";
 import projectCard3 from "../../assets/images/sample/projectCard3.svg";
-import projectCard4 from "../../assets/images/sample/ProjectCard4.svg";
+import projectCard4 from "../../assets/images/sample/projectCard4.svg";
 import projectCard5 from "../../assets/images/sample/projectCard5.svg";
-import projectCard6 from "../../assets/images/sample/projectcard6.svg";
+import projectCard6 from "../../assets/images/sample/projectCard6.svg";
 import projectCard7 from "../../assets/images/sample/projectCard7.svg";
 import projectCard8 from "../../assets/images/sample/projectCard8.svg";
 
@@ -313,7 +313,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
       {
@@ -329,9 +329,10 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
-      },{
+      },
+      {
         type: "Premium",
         price: 300,
         discountPrice: 290,
@@ -344,7 +345,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
     ],
@@ -354,49 +355,173 @@ export const pricingData = [
     packages: [
       {
         type: "Basic",
-        price: 1000,
-        discountPrice: 240,
+        price: 760,
+        discountPrice: 399.99,
         services: [
-          " 3 Custom Logo Design Concepts",
-          "1 Dedicated Designer",
-          "1 Revision",
-          "Get initial sample within 1hours",
-          "Final Files Format PNG, JPG",
+          "4 Page Website",
+          "5 Stock Images",
+          "1 jQuery Slider Banner",
+          "Contact/Query Form",
+          "Complete W3C Certified HTML",
+          "48 to 72 hours TAT",
+          "Complete Deployment",
+          "24 X 7 Customer Support",
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
       {
-        type: "Standard",
-        price: 1000,
-        discountPrice: 700,
+        type: "Startup",
+        price: 1199.99,
+        discountPrice: 599.99,
         services: [
-          " 3 Custom Logo Design Concepts",
-          "1 Dedicated Designer",
-          "1 Revision",
-          "Get initial sample within 1hours",
-          "Final Files Format PNG, JPG",
+          "6 Page Website",
+          "8 Stock Images",
+          "3 Banner Design",
+          "Free Mobile Responsive",
+          "1 jQuery Slider Banner",
+          "FREE Google Friendly Sitemap",
+          "Complete W3C Certified HTML",
+          "48 to 72 hours TAT",
+          "Complete Deployment",
+          "24 X 7 Customer Support",
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
+          "CMS will be an Additional $150*",
         ],
-      },{
-        type: "Premium",
-        price: 1000,
-        discountPrice: 800,
+      },
+      {
+        type: "Professional",
+        price: 1999.99,
+        discountPrice: 1099.99,
         services: [
-          " 3 Custom Logo Design Concepts",
-          "1 Dedicated Designer",
-          "1 Revision",
-          "Get initial sample within 1hours",
-          "Final Files Format PNG, JPG",
+          "12 Page Website",
+          "CMS / Admin Panel Support",
+          "15 Stock Images",
+          "6 Banner Design",
+          "Free Mobile Responsive",
+          "1 jQuery Slider Banner",
+          "FREE Google Friendly Sitemap",
+          "Complete W3C Certified HTML",
+          "48 to 72 hours TAT",
+          "Complete Deployment",
+          "24 X 7 Customer Support",
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
+        ],
+      },
+      {
+        type: "Elite",
+        price: 3000,
+        discountPrice: 1499.99,
+        services: [
+          "Upto 16 Unique Pages Website",
+          "Conceptual and Dynamic Website",
+          "Mobile Responsive",
+          "Online Reservation/Appointment Tool (Optional)",
+          "Online Payment Integration (Optional)",
+          "Custom Forms",
+          "Lead Capturing Forms (Optional)",
+          "Striking Hover Effects",
+          "Newsletter Subscription (Optional)",
+          "Newsfeed Integration",
+          "Social Media Integration",
+          "Search Engine Submission",
+          "4 Unique Banner Design",
+          "1 jQuery Slider Banner",
+          "6 Stock Images",
+          "Complete W3C Certified HTML",
+          "48 to 72 hours TAT",
+          "Complete Deployment",
+          "24 X 7 Customer Support",
+          "100% Unique Design Guarantee",
+          "100% Satisfaction Guarantee",
+          "100% Money Back Guarantee *",
+          "15% Discount on your next order",
+        ],
+      },
+      {
+        type: "Corporate",
+        price: 3900,
+        discountPrice: 1950,
+        services: [
+          "16 to 25 Unique Pages Website",
+          "Custom Made, Interactive, Dynamic & High-End Design",
+          "Custom WP (or) Custom PHP Development",
+          "1 jQuery Slider Banner",
+          "Up to 12 Custom Made Banner Designs",
+          "15 Stock Images",
+          "Unlimited Revisions",
+          "Special Hoover Effects",
+          "Content Management System (CMS)",
+          "Online Appointment/Scheduling/Online Ordering Integration (Optional)",
+          "Online Payment Integration (Optional)",
+          "Multi-Lingual (Optional)",
+          "Custom Dynamic Forms (Optional)",
+          "Signup Area (For Newsletters, Offers etc.)",
+          "Search Bar",
+          "Live Feeds of Social Networks integration (Optional)",
+          "Mobile Responsive",
+          "FREE 1 Years Domain Name",
+          "Free Google Friendly Sitemap",
+          "Search Engine Submission",
+          "Complete W3C Certified HTML",
+          "Industry Specified Team of Expert Designers and Developers",
+          "Complete Deployment",
+          "Dedicated Accounts Manager",
+          "24 X 7 Customer Support",
+          "100% Unique Design Guarantee",
+          "100% Satisfaction Guarantee",
+          "100% Money Back Guarantee *",
+          "15% Discount on your next order",
+        ],
+      },
+      {
+        type: "Business",
+        price: 9900,
+        discountPrice: 4950,
+        services: [
+          "Complete Custom Design & Development",
+          "Dating Portal, Job Portal, Professional Network Portal, Social Network Portal, Restaurant Portal, Medical Portal, Enterprise Portal (Any One)",
+          "Unique, User Friendly, Interactive, Dynamic, High End UI Design",
+          "Unlimited Banner Designs",
+          "Interactive Sliding Banners",
+          "Unlimited Stock Images",
+          "Unlimited Revisions",
+          "Special Hoover Effects",
+          "Client/User Dashboard Area",
+          "Custom Coding and Development",
+          "Content Management System (Custom)",
+          "Online Appointment/Scheduling/Online Ordering Integration (Optional)",
+          "Online Payment Integration (Optional)",
+          "Multi-Lingual (Optional)",
+          "Custom Dynamic Forms (Optional)",
+          "Shopping Cart Integration (Optional)",
+          "Web Traffic Analytics Integration",
+          "3rd Party API Integrations",
+          "Signup Area (For Newsletters, Offers etc.)",
+          "Search Bar",
+          "Live Feeds of Social Networks integration (Optional)",
+          "Mobile Responsive",
+          "FREE 2 Years Domain Name",
+          "Free Google Friendly Sitemap",
+          "Search Engine Submission",
+          "Complete W3C Certified HTML",
+          "Industry Specified Team of Expert Designers and Developers",
+          "Complete Deployment",
+          "Complete Source Files",
+          "Dedicated Accounts Manager",
+          "24 X 7 Customer Support",
+          "100% Unique Design Guarantee",
+          "100% Satisfaction Guarantee",
+          "100% Money Back Guarantee *",
+          "15% Discount on your next order",
         ],
       },
     ],
@@ -417,7 +542,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
       {
@@ -433,9 +558,10 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
-      },{
+      },
+      {
         type: "Premium",
         price: 1000,
         discountPrice: 540,
@@ -448,7 +574,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
     ],
@@ -469,7 +595,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
       {
@@ -485,9 +611,10 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
-      },{
+      },
+      {
         type: "Premium",
         price: 1000,
         discountPrice: 440,
@@ -500,7 +627,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
     ],
@@ -521,7 +648,7 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
       {
@@ -537,9 +664,10 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
-      },{
+      },
+      {
         type: "Premium",
         price: 1000,
         discountPrice: 740,
@@ -552,10 +680,9 @@ export const pricingData = [
           "100% Unique Design Guarantee",
           "100% Satisfaction Guarantee",
           "100% Money Back Guarantee *",
-          "15% Discount on your next order"
+          "15% Discount on your next order",
         ],
       },
     ],
   },
-  
 ];

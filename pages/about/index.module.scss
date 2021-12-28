@@ -51,12 +51,10 @@
   }
   .testimonial_wrapper {
     .quotesLeft {
-      width: 30px;
-      right: 5px;
+      display: none;
     }
     .quotesRight {
-      width: 30px;
-      left: 5px;
+      display: none;
     }
   }
 }

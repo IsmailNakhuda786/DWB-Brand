@@ -211,7 +211,11 @@ const index = () => {
       </Section>
       <BookMyWebsite />
       <Section>
-        <UsableRow image={getInTouch} reverse imageClass={classList.imageClass}>
+        <UsableRow
+          image={getInTouch}
+          reverse
+          imageClass={classList.imageClass}
+          gridGapClass={classList.getInTouchGap}>
           <Form
             heading={"Get In Touch"}
             buttonText={"Send Message"}

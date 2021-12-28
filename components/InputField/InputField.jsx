@@ -12,12 +12,15 @@ const InputField = ({
   return (
     <>
       <div className={classList.inputField}>
-        <Paragraph color="#0000006e" style={{ fontSize: "14px" }}>
+        <Paragraph
+          color="#0000006e"
+          style={{ fontSize: "14px" }}
+          marginBottom="0">
           {fieldName}
         </Paragraph>
 
         <input onChange={onChange} value={value} name={name} type={type} />
-        
+
         {errorMessage && (
           <Paragraph color="red" style={{ fontSize: "12px" }}>
             {errorMessage}

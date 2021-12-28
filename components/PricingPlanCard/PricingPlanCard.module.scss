@@ -4,17 +4,18 @@
   background: $clr-white;
   width: 100%;
   box-shadow: 3px 4px 20px 6px #d4d4d4;
-  max-width: 330px;
+  max-width: 360px;
   .borders {
     border-top: dashed #f1f1f1;
     border-bottom: dashed #f1f1f1;
     padding: 0 0 0 10px;
+    font-size: 14px;
 
     .list {
       height: 158px;
       overflow-y: auto;
       padding: 10px 0;
-      margin: 10px 0;
+      margin: 10px 10px 10px 5px;
     }
   }
   .wrapperTitle {
@@ -31,13 +32,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px 0px 10px 0px;
+    padding: 30px 0px 10px 0px;
     position: relative;
     .amount {
       position: absolute;
-      right: 83px;
-      top: 15px;
-      text-decoration: line-through #0476d9;
+      right: 78px;
+      top: 8px;
+      text-decoration: line-through #ff0000;
     }
   }
   .description {
@@ -57,6 +58,7 @@
     }
     .detail {
       text-decoration: underline;
+      cursor: pointer;
     }
   }
   .contact {
@@ -70,6 +72,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      font-family: sans-serif;
       img {
         margin-right: 10px;
       }

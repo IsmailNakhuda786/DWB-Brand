@@ -12,12 +12,11 @@ const UsableRow = ({
   gridGapClass,
   imageClass,
 }) => {
-  // console.log("styles", styles);
   return (
     <>
       {reverse ? (
         <div className={`${classList.iAmUseableRow} ${gridGapClass}`}>
-          <InnnerSection>
+          <InnnerSection padding="0px">
             <div
               className={`${classList.content} ${customClass}`}
               style={{
@@ -36,7 +35,7 @@ const UsableRow = ({
           <div className={classList.wrapperImage}>
             <img src={image.src} alt="" />
           </div>
-          <InnnerSection>
+          <InnnerSection padding="0px">
             <div
               className={`${classList.content} ${customClass}`}
               style={{

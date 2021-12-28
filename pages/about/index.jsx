@@ -30,7 +30,7 @@ import UsableRow from "../../components/useAbleRow/UsableRow";
 import Header from "../../components/Header/Header";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import MarketingCard from "../../components/MarketingCard/MarketingCard";
-import AboutMainView from "../../components/AboutMainView/AboutMainView";
+import AboutMainView from "../../components/AboutMainView/AboutMAinView";
 
 const index = () => {
   const images = [
@@ -84,7 +84,6 @@ const index = () => {
       <Section flex={true} padding="0px">
         <UsableRow
           gridGapClass={classList.gridGapClass}
-          image={sample4}
           backgroundColor={"#1D2228"}
           customClass={classList.contentSection}
           style={{

@@ -24,24 +24,25 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     justify-items: center;
+    grid-column-gap: 15px;
   }
 }
 
 @media screen and (min-width: 541px) and (max-width: 991px) {
-.pricing_section {
-  .pricing_plan_wrapper {
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) !important;
-    grid-row-gap: 45px !important;
-  }
-  .button_group {
-    button {
-      margin: 10px 4px;
+  .pricing_section {
+    .pricing_plan_wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) !important;
+      grid-row-gap: 45px !important;
+    }
+    .button_group {
+      button {
+        margin: 10px 4px;
+      }
     }
   }
-}
 }
 
 // Media Query form Mobile width 540px

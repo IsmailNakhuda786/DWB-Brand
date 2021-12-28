@@ -18,5 +18,31 @@
       height: 170px;
       margin-bottom: 20px;
     }
+    .profileBox {
+      position: relative;
+      .hoverPlay {
+        background: transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 20px);
+        border-radius: 50%;
+        transition: 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          opacity: 0;
+          transition: 1s;
+        }
+        &:hover {
+          background: #00000080;
+          svg {
+            opacity: 1;
+          }
+        }
+      }
+    }
   }
 }

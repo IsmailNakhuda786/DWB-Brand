@@ -12,6 +12,9 @@
 .imageClass {
   width: 440px !important;
 }
+.getInTouchGap {
+  grid-column-gap: 100px !important;
+}
 
 .paragraph {
   width: 75%;
@@ -61,12 +64,12 @@
     .quotesLeft {
       width: 30px;
       right: 5px;
-      display:none;
+      display: none;
     }
     .quotesRight {
       width: 30px;
       left: 5px;
-      display:none;
+      display: none;
     }
   }
 }
